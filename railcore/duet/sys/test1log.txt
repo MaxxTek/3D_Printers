@@ -1,0 +1,2 @@
+2019-03-21 15:30:43 Event logging started
+2019-03-21 15:30:51 Event logging stopped
