@@ -2,14 +2,18 @@
 ;Effect   : Homes, performs 3 bed-leveling routines and homes again.
 ;Use-case : Time-saving macro, in order to get the bed as level as possible and homed.
 
-M140 S60	; Set Bed Temp to 60C
-M109 S130 T0 	; Wait for hot-end temp to rise to 130C
+;M140 S60	; Set Bed Temp to 60C
+;M109 S130 T0 	; Wait for hot-end temp to rise to 130C
+M98 P"homex.g"			;	Call homex.g file
+M98 P"homey.g"			;	Call homey.g file
+M98 P"homez.g"			;	Call homez.g file
 
-G28 X Y		; Home X & Y
+;G28 X Y		; Home X & Y
 
 M561     	; Clear bed transforms
 G29 S2		; Clear Mesh
-G28 Z    	; Home Z
+M98 P"homez.g"			;	Call homez.g file
+;G28 Z    	; Home Z
 G32      	; Level Bed 1
 G32      	; Level Bed 2
 G32      	; Level Bed 3

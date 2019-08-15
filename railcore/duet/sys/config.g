@@ -97,7 +97,7 @@ M143 H1 S290                        ; Maximum H1 (Extruder) heater temperature (
 ;M574 Z1 S2 				; Set endstops controlled by probe for Precision Piezo Orion
 
 ;M558 P1 I1 H3 R0.1 F450 T6000 A5 S0.005; Precision Piezo Orion v2.0(analog)
-M558 P1 I1 H0.5 R0.1 F450 T6000 A5 S0.005; Precision Piezo Orion v2.0(analog)
+M558 P1 I1 H2.5 R0.1 F450 T6000 A5 S0.005; Precision Piezo Orion v2.0(analog) H0.5
 G31 X0 Y0 Z0.0 P470 		; Your p-val is going to depend a lot on your particular setup.  Look at the z-probe resting value and add 10-20.G31 X0 Y0 Z-0.05 P468 Was just 0.04
 			 	; e.g. - this value of 480 is based on a resting value of 465. The sensitivity of the tuning potentiometer and your mounting
 			 	; of the piezo may impact this
