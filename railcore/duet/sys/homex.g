@@ -16,7 +16,7 @@ M915 P0:1 S3 R0 F0 H400; both motors because corexy; Sensitivity 4, don’t take
 G91 ; set relative
 G1 Z5 F1200 S2
 G1 S1 X-350 F4000 ; move left 250mm, stopping at the endstop
-G1 X10 F1200; move away from end
+G1 X45 F1200; move away from end
 G1 Z-5 F1200 S2
 G90 ; back to absolute positioning
 M400 ; wait again

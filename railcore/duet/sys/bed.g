@@ -6,8 +6,8 @@
 
 M561                         ; clear any existing bed transform
 G1 Z5 S2
-G30 P0 X15 Y45 Z-99999		;Full Plate
-G30 P1 X15 Y275 Z-99999	;Full Plate
+G30 P0 X45 Y45 Z-99999		;Full Plate
+G30 P1 X45 Y275 Z-99999	;Full Plate
 ;G30 P0 X25 Y45 Z-99999		;Textured Plate
 ;G30 P1	X25 Y275 Z-99999	;Textured Plate
 G30 P2 X295 Y150 Z-99999 S3

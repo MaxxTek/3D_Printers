@@ -37,9 +37,9 @@ M201 X3000 Y3000 Z200 E1000          	; Accelerations (mm/s^2)
 M203 X24000 Y24000 Z900 E3600      	; Maximum speeds (mm/min)
 M566 X1000 Y1000 Z30 E20            	; Maximum jerk speeds mm/minute
 M208 X310 Y300 Z330                 	; set axis maxima and high homing switch positions (adjust to suit your machine)
-M208 X0 Y0 Z-0.0 S1                 	; set axis minima and low homing switch positions (adjust to make X=0 and Y=0 the edges of the bed) Z Default -0.5
+M208 X-25.0 Y0 Z-0.0 S1                 	; set axis minima and low homing switch positions (adjust to make X=0 and Y=0 the edges of the bed) Z Default -0.5
 M92 X200 Y200 Z1600 E837	    	; steps/mm
-M206 X-10				; Set Endstop Offset
+;M206 X-10				; Set Endstop Offset
 
 
 ; Thermistors
