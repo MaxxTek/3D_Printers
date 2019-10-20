@@ -4,7 +4,7 @@
 
 ;G91 G1 Z5 F800 S2 ; lift z so we don't crash
 ;G90 G1 X150 Y150 F6000 ; Move to the center of the bed
-G90 G1 X45 Y45	; Move to first screw point
+G90 G1 X15 Y20	; Move to first screw point
 
 ; M558  Fxxx sets the probing speed.
 ; Probe rapidly to get us in the right ballpark.
