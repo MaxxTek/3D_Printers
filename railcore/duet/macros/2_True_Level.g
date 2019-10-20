@@ -12,13 +12,13 @@ M98 P"homez.g"			;	Call homez.g file
 
 M561     	; Clear bed transforms
 G29 S2		; Clear Mesh
-M98 P"homez.g"			;	Call homez.g file
+
 ;G28 Z    	; Home Z
 G32      	; Level Bed 1
 G32      	; Level Bed 2
 G32      	; Level Bed 3
 G32		; Level Bed 4
 G32		; Level Bed 5
-G28 Z    	; Home Z
-
+;G28 Z    	; Home Z
+;M98 P"homez.g"			;	Call homez.g file
    
